@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Fandango</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+ 
+    <style>
+        /**first part **/
+        .mainbody{
+            background-image:url(graphic.jpg);
+            background-size: 100% 800px;
+            background-repeat: no-repeat;
+            height: 670px;
+        }
+        .header1{
+            height: 45px;
+            width: 100%;
+            background-color: cornflowerblue;
+            margin-top: -15px;
+
+        }
+        ul{
+            
+            list-style: none;
+        }
+        .photo{
+            float: left;
+            margin-right: 500px;
+            
+        }
+        .icons , li{
+            float: left;
+            padding: 20px; 
+            justify-content: flex-end;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  
+        }
+        .icons{
+            margin-top: -15px;
+            font-size: 10px;
+        }
+        .text1{
+            text-align: center;
+            color: white;
+        }
+        .hed1{
+            font-size: 80px;
+        }
+        .p1{
+            font-style: italic;
+            font-size: 40px;
+        }
+        button{
+            border-radius: 10px;
+            background-color: red;
+            font-size: 15px;
+            font-style: italic;
+        }
+        .line{
+            width: 20%;
+        }
+
+        /**second part**/
+        .secondpart{
+            
+            height: 650px;
+        }
+        .parent{
+            display: flex;
+            
+        }
+        .part{
+            height: 350px;
+            width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: antiquewhite;
+            margin-top: 30px;
+            margin-left: 150px;
+            text-align: center;
+                   
+        }
+        .img2{
+            height: 800px;
+            width: 800px;
+            margin-top: 100px;
+            margin-left: -30px;
+            border-radius: 10px; 
+            opacity: 1;    
+            
+        }
+        .p2{
+            font-size: 20px;
+        }
+        .bt2{
+            border-radius: 20px;
+            font-size: 20px;
+            width: 30%;
+            text-align: center;
+            margin-left: 100px;
+        }
+        /**third part**/
+        .thridpage{
+        background-image: url(water.jpg);
+        color: white;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 695px;
+      }
+      .thirdpart{
+        display: flex;
+        
+      }
+      .one{
+        height: 535px;
+        width: 48%;
+        margin-left: 300px;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: -50px;
+      }
+      .two{
+        height: 535px;
+        width: 48%;
+        margin-right: 300px;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: -50px;
+      }
+      button{
+        background-color: transparent;
+        color: white;
+        border-radius: 20px;
+        border-color: white;
+        font-style: italic;
+      }
+      
+      .edit{
+        font-size: 25px;
+      }
+    
+      .foot{
+        display: flex;
+        text-align: center;
+        height: 100px;
+        width: 97%;
+        background-color: brown;
+        opacity: 0.8;
+        justify-content: center;
+        padding: 20px;
+      }
+      .hr1{
+        border-left: 1px white;
+        height: 535px;
+      }
+      .a1{
+        font-size: 30px;
+        margin-top: 10px;
+      }
+      .span1{
+        visibility: hidden;
+      }
+      .span2{
+        visibility: hidden;
+      }
+      .icon2{
+        font-size: 20px;
+        margin-top: 18px;
+      }
+      .gap{
+        width: 20%;
+      }
+
+      /** fourt part**/
+      .fourtpart{
+            display: flex;
+            margin-top: 40px;
+            margin-left: 90px;
+        }
+        .part1{
+          height: 300px;
+          width: 400px;
+          background-color: darkgrey;
+          margin-left: 150px;
+         
+        }
+        .part2{
+          height: 300px;
+          width: 400px;
+          background-color: darkgrey;
+          margin-left: 5px;
+        }
+       .p11{
+        display: flex;
+        margin-top: 10px;
+        padding: 20px;
+       }
+       .p12{
+        display: inline-flex;
+        justify-content: space-between;
+        height: 60px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+       }
+       .p13{
+        display: flex;
+        margin-left: 20px;
+       }
+       .p21{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 20px;
+       }
+       
+       .P23{
+        display: flex;
+        margin-left: 20px;
+       }
+       .ONE1{
+        display: flex;
+        margin-right: 10px; 
+        margin-left: 20px;
+       }
+       .ptwo{
+        display: flex;
+       }
+       .para{
+        margin-left: 20px;
+       }
+       .iconerror{
+        margin-top: 15px;
+       }
+
+       /** fifth part**/
+       .footer-center{
+            margin: 20px 0px 0px 50px;
+
+        }  
+        .footer-right{
+         margin-left: 400px;
+        }    
+        footer{
+            font-family: 'Poppins', sans-serif;
+            display: inline-flex;
+            height: 300px;
+            width: 100%;
+            background-color: darkslategrey;
+            color: white;
+            bottom: 0;
+            padding:20px;
+            font-size: 20px;
+            box-sizing: border-box;
+        }
+        i{
+            font-size: 40px;
+        }
+        .footer-icons i{
+            color: white;
+            font-size: 20px;
+        }
+        .spa{
+            font-size: 30px;
+        }
+        .footer-icons{
+            justify-content:space-between;
+            letter-spacing: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mainbody">
+    <header class="header1">
+        <ul>
+            <img class="photo" src="Fandango.png" alt="" height="40px" width="120px">
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Portfolio</li>
+            <li>Blog</li>
+            <li>Contact</li>
+            <a class="icons" href="https://web.whatsapp.com/"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </ul>
+    </header>
+    <div class="text1">
+    <h1 class="hed1">GAHPHIC DESIGN <BR> SERVICES</h1>
+        <Hr class="line"></Hr>
+        <P class="p1">Boost your business with awesome <br>
+        branding and marketing materials
+        </P>
+      <button>HIRE US</button>
+    </div></div><br>
+    <hr class="gap">
+    <!--second part-->
+    <div class="secondpart">
+        <div class="parent">
+        <div class="part">
+            <h1>Coca-Cola Company Jobs</h1>
+            <p class="p2">We seek employees that embrace change,<br>
+               champion diversity and push for progress. Your <br>
+               skills and eperinece will help us navigate the <br>
+               ever-changing global landscape and guide us <br>
+               into the next chapter and beyond.  
+            </p> <br> <br> <br>
+              <button>Explore Jobs</button>
+        </div>
+        <div class="img2">
+            <img src="women.jpg" alt="">
+        </div></div></div>
+        <hr class="gap">
+
+        <!--third part--> <!--in third part there is a scroll error-->
+
+        <div class="thridpage">
+            <div class="thirdpart">
+                <div class="one">
+                    <h1>Latest Annual Meeting</h1>
+                    <p>2023 Annual Meeting of Shareowners</p>
+                    <button class="bt3">View Event</button>
+                    
+                </div>
+               <hr class="hr1">
+                <div class="two">
+                    <h1>Latest Annual Report</h1>
+                    <p>For Fiscal Year Ending Dec 31 2023</p>
+                    <div class="btn">
+                    <button class="bt3">View Report</button>
+                    <button class="bt3">VIew 10-k</button></div>
+                </div>
+            </div>
+            
+                <div class="foot">
+                <a class="icon2" href="https://fontawesome.com/v5/icons/envelope?f=classic&s=solid&pc=%23e90707"><i class="fas fa-envelope" ></i></a> <br>
+                <h1 class="edit"><span class="span2">1</span>Sign Up For Email Alerts</h1> <br> <br>
+                <br> <a class="a1" href="" style="color: aliceblue;"><span class="span1"> 4</span>sign up today @</a>
+            </div></div>
+            <hr class="gap">
+
+            <!--fourth part-->
+            <div class="fourtpart">
+                <div class="part1">
+                   <div class="p11">
+                  <i style="font-size: 30px;" class="fa-brands fa-square-hacker-news"></i>
+                  <h1>Investor Overview</h1></div>
+                  <div class="p12">
+                      <img src="img2.jpg" alt="" height="60px" width="100px">
+                      <p style="margin-right: 10px;">Investor Overview-Updated <br> for Second Quarter 2023</p>
+                  </div>
+                  <div class="p13">
+                      <p>View Presentation</p>
+                      <p class="iconerror"><i class="fa fa-play-circle" style="font-size:20px;color:red "></i></p>
+                  </div>
+                </div>
+                <div class="part2">
+                  <div class="p21">
+                      <i class="fa fa-calendar" style="font-size:24px"></i>
+                      <h1>Upcoming Event</h1>
+                  </div>
+                  <div class="para">
+                  <p  style="font-size: 13px;">Oct 24 2023 + 8:30 am EDT</p>
+                  <p>3rd Quarter 2023 Earnings Call</p></div>
+                  <br> 
+                  <DIV class="ptwo">
+                  <div class="ONE1">
+                      <p style="font-size: 15PX;">ADD TO CALENDER</p>
+                      <p class="iconerror"><i class="fa fa-play-circle" style="font-size:20px;color:red "></i></p>
+                  </div>
+                      <DIv class="P23">
+                      <p style="font-size: 15PX;">VIEW ALL</p>
+                      <i class="fa fa-play-circle" style="font-size:20px;color:red ; padding-top: 15px;"></i>
+                  </div></DIV>
+                </div>
+              </div>
+              <hr class="gap"><br><br>
+
+              <!--fifth part-->
+
+              <footer>
+                <div class="footer-center">
+                    <div style="display: flex;">
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Ghaziabad</span><br>
+                            Delhi</p>
+                    </div>
+        
+                    <div style="display:flex;">
+                        <i class="fa fa-phone"></i>
+                        <p>+91 74**9**258</p>
+                    </div>
+                    <div style="display: flex;">
+                        <i class="fa fa-envelope"></i>
+                        <p style="color: aliceblue;"><a style="color: white;" href="mailto:sagar00001.co@gmail.com">xyz@gmail.com</a></p>
+                    </div>
+                </div> 
+                <div class="footer-right">
+                    <p class="footer-company-about">
+                        <span class="spa" style="font-size:xx-large px; font-family:Arial, Helvetica, sans-serif; margin-bottom: 30px; color: coral;">About the company</span> <br><br>
+                        <strong>Sahabaz Developer</strong> is a Youtube channel <br> where you can find more creative CSS <br> Animations
+                        and
+                        Effects along with <br>
+                        HTML, JavaScript and Projects using C/C++.
+                    </p>
+                    <div style="color: aliceblue;" class="footer-icons">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>     
+            </footer>
+</body>
+</html>
